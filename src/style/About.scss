@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.about {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: #141414f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    .info {
+      width: 70%;
+      h2 {
+        display: flex;
+        align-items: center;
+        font-size: 2.5rem;
+        font-family: "Raleway", sans-serif;
+        justify-content: center;
+        .blank {
+          margin-left: 0.5rem;
+          width: 5rem;
+          height: 4px;
+          background-color: rgb(79, 79, 231);
+        }
+      }
+      p {
+        font-size: 20px;
+      }
+      .git-cv {
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        a {
+          margin: 0 2rem;
+          text-decoration: none;
+          font-size: 1rem;
+          color: rgb(255, 255, 255);
+          &:hover {
+            color: rgb(79, 79, 231);
+          }
+        }
+      }
+    }
+
+    // skills part of about section
+    .skills {
+      padding: 5rem 0 0 0;
+      width: 80%;
+
+      h2 {
+        font-family: "Raleway", sans-serif;
+        font-size: 2rem;
+      }
+      .skills-container {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+
+        div {
+          border-radius: 5px;
+          box-shadow: 3px 6px 10px black;
+          padding: 2rem;
+          color: rgb(219, 219, 34);
+          margin: 1rem;
+          transition: ease-in 0.2s;
+          &:hover {
+            background-color: rgb(233, 230, 230);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:820px) {
+  .about {
+    .container {
+      .info {
+        width: 100%;
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 17px;
+        }
+      }
+      .skills {
+        width: 100%;
+      }
+    }
+  }
+}
