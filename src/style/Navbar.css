@@ -102,6 +102,12 @@ nav .links {
 nav .links a {
   text-decoration: none;
   color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+nav .links a:hover {
+  color: #4f4fe7;
 }
 
 nav .menu-mobile {

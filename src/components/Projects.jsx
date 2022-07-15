@@ -3,25 +3,41 @@ import "../style/Projects.scss";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id="work" className="projects">
       <h2>
         My Projects <div className="blank"></div>
       </h2>
+      <p className="title">
+        Below are only some of my projects wich I developed to put my skills
+        into real world projects.
+      </p>
       <div className="container">
         <div className="project">
           {" "}
-          <img src={"/images/projects/project1.png"} alt="" />
+          <img src={"/images/projects/project1.png"} alt="Project" />
           <div className="project-info">
             <p>Construction Landing Page developed with Bootstrap CSS</p>
-            <a href="#home">SEE PROJECT</a>
-          </div>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://constructing.netlify.app/"
+            >
+              SEE PROJECT
+            </a>
+          </div>{" "}
         </div>
         <div className="project">
           {" "}
-          <img src={"/images/projects/project2.png"} alt="" />
+          <img src={"/images/projects/project2.png"} alt="Project" />
           <div className="project-info">
             <p>Movie App developed by fetching API with React Js</p>
-            <a href="#home">SEE PROJECT</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://thestreamer.netlify.app/"
+            >
+              SEE PROJECT
+            </a>
           </div>
         </div>
         <div className="project">
@@ -29,31 +45,55 @@ function Projects() {
           <img src={"/images/projects/project3.png"} alt="" />
           <div className="project-info">
             <p>Weather App developed by fetching API with React Js</p>
-            <a href="#home">SEE PROJECT</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://weather2cast.netlify.app/"
+            >
+              SEE PROJECT
+            </a>
           </div>
         </div>
         <div className="project">
           {" "}
-          <img src={"/images/projects/project4.png"} alt="" />
+          <img src={"/images/projects/project4.png"} alt="Project" />
           <div className="project-info">
             <p>Travel Landing Page developed with Tailwind CSS</p>
-            <a href="#home">SEE PROJECT</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://tourstravel.netlify.app/"
+            >
+              SEE PROJECT
+            </a>
           </div>
         </div>
         <div className="project">
           {" "}
-          <img src={"/images/projects/project5.png"} alt="" />
+          <img src={"/images/projects/project5.png"} alt="Project" />
           <div className="project-info">
             <p>Transform Technology Landing Page developed with Tailwind CSS</p>
-            <a href="#home">SEE PROJECT</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://buildtool.netlify.app/"
+            >
+              SEE PROJECT
+            </a>
           </div>
         </div>
         <div className="project">
           {" "}
-          <img src={"/images/projects/project6.png"} alt="" />
+          <img src={"/images/projects/project6.png"} alt="Project" />
           <div className="project-info">
             <p>Simple Car App developed with React JS</p>
-            <a href="#home">SEE PROJECT</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://buyacar.netlify.app/"
+            >
+              SEE PROJECT
+            </a>
           </div>
         </div>
       </div>

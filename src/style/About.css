@@ -70,12 +70,26 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 2rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.about .container .info .git-cv button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  padding-top: 4px;
+  cursor: pointer;
+  margin: 0 2rem;
+}
+
+.about .container .info .git-cv button:hover {
+  color: #4f4fe7;
 }
 
 .about .container .info .git-cv a {
-  margin: 0 2rem;
   text-decoration: none;
-  font-size: 1rem;
   color: white;
 }
 

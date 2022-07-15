@@ -1,0 +1,69 @@
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 0 0;
+  background-color: #0a0a0ade;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  .copyright {
+    padding: 3rem 0;
+    width: 100%;
+    border-top: solid 1px gray;
+    text-align: center;
+  }
+  h2 {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    .blank {
+      margin-left: 0.5rem;
+      width: 5rem;
+      height: 4px;
+      background-color: rgb(79, 79, 231);
+    }
+  }
+  .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    .logo {
+      width: 20rem;
+      margin: 0 5rem;
+      img {
+        width: 100%;
+      }
+    }
+    .skills {
+      margin: 1rem 0;
+    }
+    .info {
+      margin: 0;
+      width: 13rem;
+    }
+    div {
+      p {
+        font-size: 17px;
+      }
+      a {
+        color: white;
+        margin: 0 1rem 0 0;
+        border: solid 1px white;
+        border-radius: 100%;
+        font-size: 40px;
+        padding: 0.1rem 0.6rem;
+        transition: 0.3s;
+        &:hover {
+          color: #0a0a0ade;
+          background-color: white;
+        }
+      }
+    }
+  }
+}

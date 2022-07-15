@@ -70,6 +70,11 @@ nav {
     a {
       text-decoration: none;
       color: white;
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        color: rgb(79, 79, 231);
+      }
     }
   }
 

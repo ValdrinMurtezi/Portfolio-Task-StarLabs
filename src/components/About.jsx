@@ -1,4 +1,6 @@
 import React from "react";
+import axios from "axios";
+import fileDownload from "js-file-download";
 import "../style/About.scss";
 import { FiGithub } from "react-icons/fi";
 import { BsFileEarmarkPerson } from "react-icons/bs";
@@ -11,8 +13,18 @@ import {
 import { FaSass, FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 function About() {
+  const download = (e) => {
+    e.preventDefault();
+    axios({
+      url: "/images/Valdrin-Murtezi-CV.pdf",
+      method: "GET",
+      responseType: "blob",
+    }).then((res) => {
+      fileDownload(res.data, "Valdrin Murtezi CV.pdf");
+    });
+  };
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="container">
         <div className="info">
           <h2>
@@ -35,10 +47,10 @@ function About() {
               <FiGithub size={60} /> <br />
               Github
             </a>
-            <a className="cv" href="#home">
+            <button onClick={(e) => download(e)}>
               <BsFileEarmarkPerson size={60} /> <br />
               Resume
-            </a>
+            </button>
           </div>
         </div>
         <div className="skills">

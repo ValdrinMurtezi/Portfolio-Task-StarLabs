@@ -4,7 +4,7 @@ import "../style/Header.scss";
 function Header() {
   return (
     <header>
-      <div className="container">
+      <div id="home" className="container">
         <h1>
           Hi, I am <span>Valdrin Murtezi</span>{" "}
         </h1>

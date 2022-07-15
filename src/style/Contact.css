@@ -1,0 +1,102 @@
+.contact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0 0 0;
+  background-color: #0a0a0ade;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact .copyright {
+  padding: 3rem 0;
+  width: 100%;
+  border-top: solid 1px gray;
+  text-align: center;
+}
+
+.contact h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5rem;
+  font-family: "Raleway", sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact h2 .blank {
+  margin-left: 0.5rem;
+  width: 5rem;
+  height: 4px;
+  background-color: #4f4fe7;
+}
+
+.contact .container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact .container .logo {
+  width: 20rem;
+  margin: 0 5rem;
+}
+
+.contact .container .logo img {
+  width: 100%;
+}
+
+.contact .container .skills {
+  margin: 1rem 0;
+}
+
+.contact .container .info {
+  margin: 0;
+  width: 13rem;
+}
+
+.contact .container div p {
+  font-size: 17px;
+}
+
+.contact .container div a {
+  color: white;
+  margin: 0 1rem 0 0;
+  border: solid 1px white;
+  border-radius: 100%;
+  font-size: 40px;
+  padding: 0.1rem 0.6rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact .container div a:hover {
+  color: #0a0a0ade;
+  background-color: white;
+}
+/*# sourceMappingURL=Contact.css.map */
