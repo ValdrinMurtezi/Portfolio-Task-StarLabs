@@ -84,7 +84,25 @@
 }
 
 .contact .container div p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 17px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.contact .container div p:hover {
+  color: #1e9c92;
+}
+
+.contact .container div p span {
+  margin: 0.2rem 0.5rem 0 0;
+  color: #1e9c92;
 }
 
 .contact .container div a {

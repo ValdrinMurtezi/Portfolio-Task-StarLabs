@@ -1,6 +1,9 @@
 import React from "react";
 import "../style/Contact.scss";
 import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from "react-icons/fi";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsPhone, BsGlobe } from "react-icons/bs";
+import { GoLocation } from "react-icons/go";
 
 function Contact() {
   return (
@@ -10,10 +13,30 @@ function Contact() {
       </h2>
       <div className="container">
         <div className="info">
-          <p>waldrin.-@live.com</p>
-          <p>+393 45 96 09 09</p>
-          <p>valimurtezi.netlify.app</p>
-          <p>Gjilan, Kosovo</p>
+          <p>
+            <span>
+              <AiOutlineMail size={20} />
+            </span>{" "}
+            waldrin.-@live.com
+          </p>
+          <p>
+            <span>
+              <BsPhone size={20} />
+            </span>{" "}
+            +393 45 96 09 09
+          </p>
+          <p>
+            <span>
+              <BsGlobe size={20} />
+            </span>{" "}
+            valimurtezi.netlify.app
+          </p>
+          <p>
+            <span>
+              <GoLocation size={20} />
+            </span>{" "}
+            Gjilan, Kosovo
+          </p>
         </div>
         <div className="logo">
           <img src={"/images/footer-logo.png"} alt="" />
