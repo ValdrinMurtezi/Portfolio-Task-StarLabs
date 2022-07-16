@@ -3,7 +3,7 @@
 .about {
   width: 100%;
   padding: 5rem 0;
-  background-color: #141414f3;
+  // background-color: #141414f3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,13 +82,15 @@
 
         div {
           border-radius: 5px;
-          box-shadow: 3px 6px 10px black;
+          box-shadow: 4px 8px 10px black;
+          background-color: #00000060;
+          backdrop-filter: blur(3px);
           padding: 2rem;
           color: rgb(219, 219, 34);
           margin: 1rem;
           transition: ease-in 0.2s;
           &:hover {
-            background-color: rgb(233, 230, 230);
+            background-color: rgba(20, 20, 20, 0.137);
           }
         }
       }

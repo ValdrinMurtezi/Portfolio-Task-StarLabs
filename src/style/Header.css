@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
 header {
   padding: 5rem 0 0 0;
-  background-color: #141414;
+  background-color: #00000060;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

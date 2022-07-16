@@ -4,7 +4,7 @@ import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from "react-icons/fi";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <h2>
         Contact <div className="blank"></div>
       </h2>
