@@ -36,7 +36,7 @@ function Navbar() {
           </div>
           <div onClick={toggleNav} className="toggler">
             <button>
-              {nav ? (
+              {!nav ? (
                 <AiOutlineMenu size={27} />
               ) : (
                 <AiOutlineClose className="close-btn" size={27} />
@@ -46,7 +46,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div className={nav ? "menu-mobile" : "menu-mobile open"}>
+      <div className={!nav ? "menu-mobile" : "menu-mobile open"}>
         <div className="logo">
           <img src={"/images/logo.png"} alt="" />
         </div>
