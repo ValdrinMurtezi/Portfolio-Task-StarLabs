@@ -99,6 +99,9 @@ function About() {
             </div>
           </div>
         </div>
+        <div className="responsive-img">
+          <img src={"/images/img-2.png"} alt="" />
+        </div>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .about {
   width: 100%;
-  padding: 5rem 0;
+  padding: 5rem 0 3rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +54,7 @@
   margin-left: 0.5rem;
   width: 5rem;
   height: 4px;
-  background-color: #4f4fe7;
+  background-color: #1e9c92;
 }
 
 .about .container .info p {
@@ -84,7 +84,7 @@
 }
 
 .about .container .info .git-cv button:hover {
-  color: #4f4fe7;
+  color: #1e9c92;
 }
 
 .about .container .info .git-cv a {
@@ -93,7 +93,7 @@
 }
 
 .about .container .info .git-cv a:hover {
-  color: #4f4fe7;
+  color: #1e9c92;
 }
 
 .about .container .skills {
@@ -140,6 +140,21 @@
   background-color: rgba(20, 20, 20, 0.137);
 }
 
+.about .container .responsive-img {
+  width: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 6rem;
+}
+
+.about .container .responsive-img img {
+  width: 100%;
+}
+
 @media screen and (max-width: 820px) {
   .about .container .info {
     width: 100%;
@@ -151,6 +166,15 @@
     font-size: 17px;
   }
   .about .container .skills {
+    width: 100%;
+  }
+  .about .container .responsive-img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .about .container .responsive-img {
     width: 100%;
   }
 }

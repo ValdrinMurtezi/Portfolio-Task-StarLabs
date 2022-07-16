@@ -13,12 +13,16 @@ function Navbar() {
       <div className="navbar">
         <div className="container">
           <div className="logo">
-            <img src={"/images/logo.png"} alt="" />
+            <a href="#home">
+              <img src={"/images/logo.png"} alt="" />
+            </a>
           </div>
           <div className="menu">
             <ul className="links">
               <li>
-                <a href="#home">Home</a>
+                <a className="home" href="#home">
+                  Home
+                </a>
               </li>
               <li>
                 <a href="#about">About</a>

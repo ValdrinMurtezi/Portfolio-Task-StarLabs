@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+$color-2: rgb(30, 156, 146);
 
 nav {
   display: flex;
@@ -46,14 +47,14 @@ nav {
         font-weight: 500;
         font-size: 17px;
         margin-left: 1rem;
-        color: rgb(79, 79, 231);
+        color: $color-2;
         background-color: rgba(255, 255, 255, 0);
-        border: solid 2px rgb(79, 79, 231);
+        border: solid 2px $color-2;
         border-radius: 7px;
         transition: ease-in 0.3s;
         cursor: pointer;
         &:hover {
-          background-color: rgb(79, 79, 231);
+          background-color: $color-2;
           color: black;
         }
       }
@@ -66,13 +67,16 @@ nav {
     list-style: none;
     justify-content: space-between;
     font-size: 17px;
+    .home {
+      color: $color-2;
+    }
     a {
       text-decoration: none;
       color: white;
       transition: 0.2s ease-in-out;
 
       &:hover {
-        color: rgb(79, 79, 231);
+        color: $color-2;
       }
     }
   }

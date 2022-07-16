@@ -72,9 +72,9 @@ nav .menu .get-started-btn button {
   font-weight: 500;
   font-size: 17px;
   margin-left: 1rem;
-  color: #4f4fe7;
+  color: #1e9c92;
   background-color: rgba(255, 255, 255, 0);
-  border: solid 2px #4f4fe7;
+  border: solid 2px #1e9c92;
   border-radius: 7px;
   -webkit-transition: ease-in 0.3s;
   transition: ease-in 0.3s;
@@ -82,7 +82,7 @@ nav .menu .get-started-btn button {
 }
 
 nav .menu .get-started-btn button:hover {
-  background-color: #4f4fe7;
+  background-color: #1e9c92;
   color: black;
 }
 
@@ -98,6 +98,10 @@ nav .links {
   font-size: 17px;
 }
 
+nav .links .home {
+  color: #1e9c92;
+}
+
 nav .links a {
   text-decoration: none;
   color: white;
@@ -106,7 +110,7 @@ nav .links a {
 }
 
 nav .links a:hover {
-  color: #4f4fe7;
+  color: #1e9c92;
 }
 
 nav .menu-mobile {

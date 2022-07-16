@@ -11,7 +11,7 @@ function Header() {
         <h2>Front End Developer |</h2>
       </div>
       <div className="icon">
-        <img src={"/images/icon2.png"} alt="" />
+        <img src={"/images/icon.png"} alt="" />
       </div>
     </header>
   );
