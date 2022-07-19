@@ -106,9 +106,9 @@
 }
 
 .contact .container div a {
-  color: white;
+  color: #1e9c92;
   margin: 0 1rem 0 0;
-  border: solid 1px white;
+  border: solid 1px #1e9c92;
   border-radius: 100%;
   font-size: 40px;
   padding: 0.1rem 0.6rem;
@@ -117,8 +117,7 @@
 }
 
 .contact .container div a:hover {
-  color: #1e9c92;
-  background-color: black;
-  border-color: #1e9c92;
+  color: #f7f7f7;
+  border-color: #f7f7f7;
 }
 /*# sourceMappingURL=Contact.css.map */

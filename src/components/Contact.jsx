@@ -23,7 +23,7 @@ function Contact() {
             <span>
               <BsPhone size={20} />
             </span>{" "}
-            +393 45 96 09 09
+            +383 45 96 09 09
           </p>
           <p>
             <span>

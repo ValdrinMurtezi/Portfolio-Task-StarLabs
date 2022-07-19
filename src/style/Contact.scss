@@ -66,17 +66,16 @@ $color-2: rgb(30, 156, 146);
         }
       }
       a {
-        color: white;
+        color: $color-2;
         margin: 0 1rem 0 0;
-        border: solid 1px white;
+        border: solid 1px $color-2;
         border-radius: 100%;
         font-size: 40px;
         padding: 0.1rem 0.6rem;
         transition: 0.3s;
         &:hover {
-          color: $color-2;
-          background-color: rgb(0, 0, 0);
-          border-color: $color-2;
+          color: rgb(247, 247, 247);
+          border-color: rgb(247, 247, 247);
         }
       }
     }
