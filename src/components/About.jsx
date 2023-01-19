@@ -16,7 +16,7 @@ function About() {
   const download = (e) => {
     e.preventDefault();
     axios({
-      url: "/images/Valdrin-Murtezi-CV.pdf",
+      url: "/images/ValdrinMurtezi.pdf",
       method: "GET",
       responseType: "blob",
     }).then((res) => {
@@ -31,12 +31,15 @@ function About() {
             About Me <div className="blank"></div>
           </h2>
           <p>
-            I am Valdrin Murtezi, a self-taught front-end developer with over a
-            year of experience. I have a passion for creating responsive and
-            beautiful websites that provide an exceptional user experience. With
-            a keen eye for design and a strong understanding of the latest web
-            development technologies, I am dedicated to constantly improving and
-            pushing the boundaries of my skillset.
+            As a self-taught front-end developer, I have dedicated over a year
+            to honing my skills and building my knowledge through personal and
+            training projects. From creating responsive websites to developing
+            interactive user interfaces, I have gained a strong understanding of
+            the latest web development technologies and design principles. I am
+            eager to take my skills to the next level by working on real-world
+            projects and contributing to a team environment. I am a quick
+            learner and always willing to go the extra mile to deliver
+            high-quality work
           </p>
           <br />
           <p>
