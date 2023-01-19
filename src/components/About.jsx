@@ -31,14 +31,18 @@ function About() {
             About Me <div className="blank"></div>
           </h2>
           <p>
-            I am a motivated young Front End Developer who likes to contribute
-            to the tech world with my self learned knowledge. I started my
-            journey one year ago. The "how" is very casually and unexpectedly.
-            It got me into it and now I find myself everyday in front of the PC
-            sharpening my coding skills and finding it exciting. I am ready to
-            be part of a good team and to put my skills into work.
+            I am Valdrin Murtezi, a self-taught front-end developer with over a
+            year of experience. I have a passion for creating responsive and
+            beautiful websites that provide an exceptional user experience. With
+            a keen eye for design and a strong understanding of the latest web
+            development technologies, I am dedicated to constantly improving and
+            pushing the boundaries of my skillset.
           </p>
+          <br />
           <p>
+            I have a strong understanding of HTML, CSS and JavaScript and have
+            experience with popular front-end frameworks such as React. I am
+            also familiar with CSS preprocessors such as SCSS and Tailwind CSS.
             When I'm not connected to the PC, I am connected to the nature. I
             like keeping myself busy with sports in my free time.
           </p>

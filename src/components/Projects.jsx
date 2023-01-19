@@ -86,11 +86,11 @@ function Projects() {
           {" "}
           <img src={"/images/projects/project6.png"} alt="Project" />
           <div className="project-info">
-            <p>Simple Car App developed with React JS</p>
+            <p>Simple Library App developed with React JS</p>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://buyacar.netlify.app/"
+              href="https://libraryapi.netlify.app/"
             >
               SEE PROJECT
             </a>
