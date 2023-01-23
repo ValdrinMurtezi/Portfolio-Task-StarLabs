@@ -39,7 +39,7 @@ function About() {
             eager to take my skills to the next level by working on real-world
             projects and contributing to a team environment. I am a quick
             learner and always willing to go the extra mile to deliver
-            high-quality work
+            high-quality work.
           </p>
           <br />
           <p>
